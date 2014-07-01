@@ -133,7 +133,6 @@ class Draw:
             self.camera.distance += 0.05*self.mouseMoveY     
 	#re-centrar la cámara con el botón derecho del mouse
 	if self.move_camera == True:
-	    print "mover a:"
 	    self.sindex = (self.sindex +1)%3
 	    self.camera = pyggel.camera.LookAtCamera(self.state[self.sindex][0], distance=self.state[self.sindex][1],rotation=self.state[self.sindex][2]) 
 	    self.move_camera = False
@@ -174,7 +173,8 @@ class Draw:
             self.mouse_over_object = self.scene.render(self.camera)
             #intercambiar buffer
             pyggel.view.refresh_screen()
-	    glutMainLoop();
+
+	    
 
 
 ########################################main
@@ -185,7 +185,6 @@ if __name__ == '__main__':
     except:
         pass
     Draw = Draw()
-    glutInit(['Draw'])
     Draw.run()
 
 

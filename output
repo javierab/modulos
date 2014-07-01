@@ -1,0 +1,479 @@
+******************************
+******************************
+Momento actual: 10
+Variables: c_carga = 1, c_curado = 0, c_ils = 0, c_refino =0, c_done = 0, n_riego = 0
+Dias perdidos por no poder cargar: 0
+******************************
+Voy a cargar modulo 1
+Total Cargado: 220 ton
+Se comienza el curado de: 1
+Listo el curado hasta: 0
+Listo el riego ils hasta: 0
+Listo el riego refino hasta: 0
+******************************
+******************************
+Momento actual: 20
+Variables: c_carga = 2, c_curado = 1, c_ils = 0, c_refino =0, c_done = 0, n_riego = 0
+Dias perdidos por no poder cargar: 0
+******************************
+No puedo continuar:
+Riego ILS de modulo 1 no ha sido terminado: requisito para cargar 2
+******************************
+Listo el curado hasta: 0
+Listo el riego ils hasta: 0
+Listo el riego refino hasta: 0
+******************************
+******************************
+Momento actual: 30
+Variables: c_carga = 2, c_curado = 1, c_ils = 0, c_refino =0, c_done = 0, n_riego = 0
+Dias perdidos por no poder cargar: 10
+******************************
+No puedo continuar:
+Riego ILS de modulo 1 no ha sido terminado: requisito para cargar 2
+******************************
+Listo el curado hasta: 1
+Listo el riego ils hasta: 0
+Listo el riego refino hasta: 0
+******************************
+******************************
+Momento actual: 40
+Variables: c_carga = 2, c_curado = 1, c_ils = 1, c_refino =0, c_done = 0, n_riego = 0
+Dias perdidos por no poder cargar: 20
+******************************
+No puedo continuar:
+Riego ILS de modulo 1 no ha sido terminado: requisito para cargar 2
+******************************
+Listo el curado hasta: 1
+Listo el riego ils hasta: 0
+Listo el riego refino hasta: 0
+******************************
+******************************
+Momento actual: 50
+Variables: c_carga = 2, c_curado = 1, c_ils = 1, c_refino =0, c_done = 0, n_riego = 0
+Dias perdidos por no poder cargar: 30
+******************************
+No puedo continuar:
+Riego ILS de modulo 1 no ha sido terminado: requisito para cargar 2
+******************************
+Listo el curado hasta: 1
+Listo el riego ils hasta: 1
+Listo el riego refino hasta: 0
+******************************
+******************************
+Momento actual: 60
+Variables: c_carga = 2, c_curado = 1, c_ils = 1, c_refino =1, c_done = 0, n_riego = 0
+Dias perdidos por no poder cargar: 40
+******************************
+Voy a cargar modulo 2
+Total Cargado: 440 ton
+Listo el curado hasta: 1
+Listo el riego ils hasta: 1
+Listo el riego refino hasta: 0
+******************************
+******************************
+Momento actual: 70
+Variables: c_carga = 3, c_curado = 1, c_ils = 1, c_refino =1, c_done = 0, n_riego = 0
+Dias perdidos por no poder cargar: 40
+******************************
+Voy a cargar modulo 3
+Total Cargado: 660 ton
+Listo el curado hasta: 1
+Listo el riego ils hasta: 1
+Listo el riego refino hasta: 1
+******************************
+******************************
+Momento actual: 80
+Variables: c_carga = 4, c_curado = 1, c_ils = 1, c_refino =1, c_done = 1, n_riego = 0
+Dias perdidos por no poder cargar: 40
+******************************
+Voy a cargar modulo 4
+Total Cargado: 880 ton
+Listo el curado hasta: 1
+Listo el riego ils hasta: 1
+Listo el riego refino hasta: 1
+******************************
+******************************
+Momento actual: 90
+Variables: c_carga = 5, c_curado = 1, c_ils = 1, c_refino =1, c_done = 1, n_riego = 0
+Dias perdidos por no poder cargar: 40
+******************************
+Voy a cargar modulo 5
+Total Cargado: 1100 ton
+Listo el curado hasta: 1
+Listo el riego ils hasta: 1
+Listo el riego refino hasta: 1
+******************************
+******************************
+Momento actual: 100
+Variables: c_carga = 6, c_curado = 1, c_ils = 1, c_refino =1, c_done = 1, n_riego = 0
+Dias perdidos por no poder cargar: 40
+******************************
+Voy a cargar modulo 6
+Total Cargado: 1320 ton
+Listo el curado hasta: 1
+Listo el riego ils hasta: 1
+Listo el riego refino hasta: 1
+******************************
+******************************
+Momento actual: 110
+Variables: c_carga = 7, c_curado = 1, c_ils = 1, c_refino =1, c_done = 1, n_riego = 0
+Dias perdidos por no poder cargar: 40
+******************************
+Voy a cargar modulo 7
+Total Cargado: 1540 ton
+Listo el curado hasta: 1
+Listo el riego ils hasta: 1
+Listo el riego refino hasta: 1
+******************************
+******************************
+Momento actual: 120
+Variables: c_carga = 8, c_curado = 1, c_ils = 1, c_refino =1, c_done = 1, n_riego = 0
+Dias perdidos por no poder cargar: 40
+******************************
+Voy a cargar modulo 8
+Total Cargado: 1760 ton
+Listo el curado hasta: 1
+Listo el riego ils hasta: 1
+Listo el riego refino hasta: 1
+******************************
+******************************
+Momento actual: 130
+Variables: c_carga = 9, c_curado = 1, c_ils = 1, c_refino =1, c_done = 1, n_riego = 0
+Dias perdidos por no poder cargar: 40
+******************************
+Voy a cargar modulo 9
+Total Cargado: 1980 ton
+Listo el curado hasta: 1
+Listo el riego ils hasta: 1
+Listo el riego refino hasta: 1
+******************************
+******************************
+Momento actual: 140
+Variables: c_carga = 10, c_curado = 1, c_ils = 1, c_refino =1, c_done = 1, n_riego = 0
+Dias perdidos por no poder cargar: 40
+******************************
+Voy a cargar modulo 10
+Total Cargado: 2200 ton
+Se comienza el curado de: 2
+Se comienza el curado de: 3
+Se comienza el curado de: 4
+Se comienza el curado de: 5
+Se comienza el curado de: 6
+Listo el curado hasta: 1
+Listo el riego ils hasta: 1
+Listo el riego refino hasta: 1
+******************************
+******************************
+Momento actual: 150
+Variables: c_carga = 11, c_curado = 6, c_ils = 1, c_refino =1, c_done = 1, n_riego = 4
+Dias perdidos por no poder cargar: 40
+******************************
+Voy a cargar modulo 11
+Total Cargado: 2420 ton
+Se comienza el curado de: 7
+Maximo de 6 riegos simultaneo alcanzado
+Listo el curado hasta: 1
+Listo el riego ils hasta: 1
+Listo el riego refino hasta: 1
+******************************
+******************************
+Momento actual: 160
+Variables: c_carga = 12, c_curado = 7, c_ils = 1, c_refino =1, c_done = 1, n_riego = 6
+Dias perdidos por no poder cargar: 40
+******************************
+No puedo continuar:
+Riego ILS de modulo 10 no ha sido terminado: requisito para cargar 12
+******************************
+Maximo de 6 riegos simultaneo alcanzado
+Listo el curado hasta: 1
+Listo el riego ils hasta: 1
+Listo el riego refino hasta: 1
+******************************
+******************************
+Momento actual: 170
+Variables: c_carga = 12, c_curado = 7, c_ils = 1, c_refino =1, c_done = 1, n_riego = 6
+Dias perdidos por no poder cargar: 50
+******************************
+No puedo continuar:
+Riego ILS de modulo 10 no ha sido terminado: requisito para cargar 12
+******************************
+Maximo de 6 riegos simultaneo alcanzado
+Listo el curado hasta: 7
+Listo el riego ils hasta: 1
+Listo el riego refino hasta: 1
+******************************
+******************************
+Momento actual: 180
+Variables: c_carga = 12, c_curado = 7, c_ils = 7, c_refino =1, c_done = 1, n_riego = 6
+Dias perdidos por no poder cargar: 60
+******************************
+No puedo continuar:
+Riego ILS de modulo 10 no ha sido terminado: requisito para cargar 12
+******************************
+Maximo de 6 riegos simultaneo alcanzado
+Listo el curado hasta: 7
+Listo el riego ils hasta: 1
+Listo el riego refino hasta: 1
+******************************
+******************************
+Momento actual: 190
+Variables: c_carga = 12, c_curado = 7, c_ils = 7, c_refino =1, c_done = 1, n_riego = 6
+Dias perdidos por no poder cargar: 70
+******************************
+No puedo continuar:
+Riego ILS de modulo 10 no ha sido terminado: requisito para cargar 12
+******************************
+Maximo de 6 riegos simultaneo alcanzado
+Listo el curado hasta: 7
+Listo el riego ils hasta: 7
+Listo el riego refino hasta: 1
+******************************
+******************************
+Momento actual: 200
+Variables: c_carga = 12, c_curado = 7, c_ils = 7, c_refino =7, c_done = 1, n_riego = 6
+Dias perdidos por no poder cargar: 80
+******************************
+No puedo continuar:
+Riego ILS de modulo 10 no ha sido terminado: requisito para cargar 12
+******************************
+Maximo de 6 riegos simultaneo alcanzado
+Listo el curado hasta: 7
+Listo el riego ils hasta: 7
+Listo el riego refino hasta: 1
+******************************
+******************************
+Momento actual: 210
+Variables: c_carga = 12, c_curado = 7, c_ils = 7, c_refino =7, c_done = 1, n_riego = 6
+Dias perdidos por no poder cargar: 90
+******************************
+No puedo continuar:
+Riego ILS de modulo 10 no ha sido terminado: requisito para cargar 12
+******************************
+Maximo de 6 riegos simultaneo alcanzado
+Listo el curado hasta: 7
+Listo el riego ils hasta: 7
+Listo el riego refino hasta: 7
+******************************
+******************************
+Momento actual: 220
+Variables: c_carga = 12, c_curado = 7, c_ils = 7, c_refino =7, c_done = 7, n_riego = 6
+Dias perdidos por no poder cargar: 100
+******************************
+No puedo continuar:
+Riego ILS de modulo 10 no ha sido terminado: requisito para cargar 12
+******************************
+Se comienza el curado de: 8
+Se comienza el curado de: 9
+Se comienza el curado de: 10
+Se comienza el curado de: 11
+Listo el curado hasta: 7
+Listo el riego ils hasta: 7
+Listo el riego refino hasta: 7
+******************************
+******************************
+Momento actual: 230
+Variables: c_carga = 12, c_curado = 11, c_ils = 7, c_refino =7, c_done = 7, n_riego = 3
+Dias perdidos por no poder cargar: 110
+******************************
+No puedo continuar:
+Riego ILS de modulo 10 no ha sido terminado: requisito para cargar 12
+******************************
+Listo el curado hasta: 7
+Listo el riego ils hasta: 7
+Listo el riego refino hasta: 7
+******************************
+******************************
+Momento actual: 240
+Variables: c_carga = 12, c_curado = 11, c_ils = 7, c_refino =7, c_done = 7, n_riego = 3
+Dias perdidos por no poder cargar: 120
+******************************
+No puedo continuar:
+Riego ILS de modulo 10 no ha sido terminado: requisito para cargar 12
+******************************
+Listo el curado hasta: 11
+Listo el riego ils hasta: 7
+Listo el riego refino hasta: 7
+******************************
+******************************
+Momento actual: 250
+Variables: c_carga = 12, c_curado = 11, c_ils = 11, c_refino =7, c_done = 7, n_riego = 3
+Dias perdidos por no poder cargar: 130
+******************************
+No puedo continuar:
+Riego ILS de modulo 10 no ha sido terminado: requisito para cargar 12
+******************************
+Listo el curado hasta: 11
+Listo el riego ils hasta: 7
+Listo el riego refino hasta: 7
+******************************
+******************************
+Momento actual: 260
+Variables: c_carga = 12, c_curado = 11, c_ils = 11, c_refino =7, c_done = 7, n_riego = 3
+Dias perdidos por no poder cargar: 140
+******************************
+No puedo continuar:
+Riego ILS de modulo 10 no ha sido terminado: requisito para cargar 12
+******************************
+Listo el curado hasta: 11
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 7
+******************************
+******************************
+Momento actual: 270
+Variables: c_carga = 12, c_curado = 11, c_ils = 11, c_refino =11, c_done = 7, n_riego = 3
+Dias perdidos por no poder cargar: 150
+******************************
+Voy a cargar modulo 12
+Total Cargado: 2640 ton
+Listo el curado hasta: 11
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 7
+******************************
+******************************
+Momento actual: 280
+Variables: c_carga = 13, c_curado = 11, c_ils = 11, c_refino =11, c_done = 7, n_riego = 3
+Dias perdidos por no poder cargar: 150
+******************************
+Voy a cargar modulo 13
+Total Cargado: 2860 ton
+Listo el curado hasta: 11
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 11
+******************************
+******************************
+Momento actual: 290
+Variables: c_carga = 14, c_curado = 11, c_ils = 11, c_refino =11, c_done = 11, n_riego = 3
+Dias perdidos por no poder cargar: 150
+******************************
+Voy a cargar modulo 14
+Total Cargado: 3080 ton
+Listo el curado hasta: 11
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 11
+******************************
+******************************
+Momento actual: 300
+Variables: c_carga = 15, c_curado = 11, c_ils = 11, c_refino =11, c_done = 11, n_riego = 3
+Dias perdidos por no poder cargar: 150
+******************************
+Voy a cargar modulo 15
+Total Cargado: 3300 ton
+Listo el curado hasta: 11
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 11
+******************************
+******************************
+Momento actual: 310
+Variables: c_carga = 16, c_curado = 11, c_ils = 11, c_refino =11, c_done = 11, n_riego = 3
+Dias perdidos por no poder cargar: 150
+******************************
+Voy a cargar modulo 16
+Total Cargado: 3520 ton
+Listo el curado hasta: 11
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 11
+******************************
+******************************
+Momento actual: 320
+Variables: c_carga = 17, c_curado = 11, c_ils = 11, c_refino =11, c_done = 11, n_riego = 3
+Dias perdidos por no poder cargar: 150
+******************************
+Voy a cargar modulo 17
+Total Cargado: 3740 ton
+Listo el curado hasta: 11
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 11
+******************************
+******************************
+Momento actual: 330
+Variables: c_carga = 18, c_curado = 11, c_ils = 11, c_refino =11, c_done = 11, n_riego = 3
+Dias perdidos por no poder cargar: 150
+******************************
+Voy a cargar modulo 18
+Total Cargado: 3960 ton
+Listo el curado hasta: 11
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 11
+******************************
+******************************
+Momento actual: 340
+Variables: c_carga = 19, c_curado = 11, c_ils = 11, c_refino =11, c_done = 11, n_riego = 3
+Dias perdidos por no poder cargar: 150
+******************************
+Voy a cargar modulo 19
+Total Cargado: 4180 ton
+Listo el curado hasta: 11
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 11
+******************************
+******************************
+Momento actual: 350
+Variables: c_carga = 20, c_curado = 11, c_ils = 11, c_refino =11, c_done = 11, n_riego = 3
+Dias perdidos por no poder cargar: 150
+******************************
+Voy a cargar modulo 20
+Total Cargado: 4400 ton
+Listo el curado hasta: 11
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 11
+******************************
+******************************
+Momento actual: 360
+Variables: c_carga = 21, c_curado = 11, c_ils = 11, c_refino =11, c_done = 11, n_riego = 3
+Dias perdidos por no poder cargar: 150
+******************************
+Voy a cargar modulo 21
+Total Cargado: 4620 ton
+Listo el curado hasta: 11
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 11
+******************************
+******************************
+Momento actual: 370
+Variables: c_carga = 22, c_curado = 11, c_ils = 11, c_refino =11, c_done = 11, n_riego = 3
+Dias perdidos por no poder cargar: 150
+******************************
+Voy a cargar modulo 22
+Total Cargado: 4840 ton
+Listo el curado hasta: 11
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 11
+******************************
+******************************
+Momento actual: 380
+Variables: c_carga = 23, c_curado = 11, c_ils = 11, c_refino =11, c_done = 11, n_riego = 3
+Dias perdidos por no poder cargar: 150
+******************************
+Voy a cargar modulo 23
+Total Cargado: 5060 ton
+Se comienza el curado de: 12
+Se comienza el curado de: 13
+Se comienza el curado de: 14
+Se comienza el curado de: 15
+Se comienza el curado de: 16
+Se comienza el curado de: 17
+Listo el curado hasta: 11
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 11
+******************************
+******************************
+Momento actual: 390
+Variables: c_carga = 24, c_curado = 17, c_ils = 11, c_refino =11, c_done = 11, n_riego = 5
+Dias perdidos por no poder cargar: 150
+******************************
+Voy a cargar modulo 24
+Total Cargado: 5280 ton
+Listo el curado hasta: 11
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 11
+******************************
+******************************
+Momento actual: 400
+Variables: c_carga = 25, c_curado = 17, c_ils = 11, c_refino =11, c_done = 11, n_riego = 5
+Dias perdidos por no poder cargar: 150
+******************************
+Voy a cargar modulo 25
+Total Cargado: 5500 ton
+Listo el curado hasta: 17
+Listo el riego ils hasta: 11
+Listo el riego refino hasta: 11
