@@ -1,7 +1,6 @@
 import sys
 import math
 
-#TODO: incorporar maximo de 6 modulos
 #TODO: incorporar plan minero
 #TODO: incorporar tamanos exactos de modulos
 #TODO: incorporar info niveles
@@ -16,10 +15,10 @@ def load(t, newload):
     global total_carga
     global lost_days
     #veo si cumplo condiciones para seguir cargando
-    if res_carga[current_carga]!= 0 and current_refino < res_carga[current_carga]:
+    if res_carga[current_carga]!= 0 and current_done < res_carga[current_carga]:
         lost_days+=delta
         print "No puedo continuar:"
-        print "Riego ILS de modulo %d no ha sido terminado: requisito para cargar %d" %(res_carga[current_carga], current_carga)
+        print "Riego Refino de modulo %d no ha sido terminado: requisito para cargar %d" %(res_carga[current_carga], current_carga)
         print "******************************"
     else:
         print "Voy a cargar modulo %d" %(current_carga)
@@ -53,6 +52,8 @@ def cond_riego(t):
     global refino
     global res_curado
     global n_riego
+    global n_curado
+    global started
     
     for i in range(0, current_curado+1):
         curado[i]-=delta
@@ -61,38 +62,47 @@ def cond_riego(t):
     for i in range(0, current_refino+1):
         refino[i]-=delta         
     #agrego los posibles nuevos curados.
-
+    #n_riego = current_curado - current_done
+    #n_curado = current_curado - current_ils
     #veo si puedo avanzar
-
-    while (current_carga > res_curado[current_curado+1]):
-        n_riego = current_curado - current_done
-        if n_riego >= 6:
+    
+    #esto no deberia pasar.
+    if n_riego >= 6:
             print "Maximo de %d riegos simultaneo alcanzado" %n_riego
-            break
+    #cumplo la restriccion, soy el unico en proceso.
+    while (current_carga > res_curado[current_curado+1] and started == False):
+        print "Entro al loop: %d" %carga[current_curado+1]
         #avanzo a curar todos los que puedo.
-        if(carga[current_carga] == weight):
+        if(carga[current_curado+1] == 0):
             current_curado+=1
             print "Se comienza el curado de: %d" %current_curado
+            started = True
         else:
             print "No puedo comenzar curado:"
-            print "Carga de %d es %d: menor que %d" %(current_carga, carga[current_carga], weight)
+            print "Carga de %d es %d: menor que %d" %(current_curado+1, carga[current_curado+1], weight)
             break
+        #n_riego = current_curado - current_done
+        #n_curado = current_curado - current_ils
     #ahora veo cuales puedo avanzar en las fases de riego.
-    for i in range(0, max(current_curado, current_ils, current_refino)+1):
-        if refino[i] <= 0 and i>= current_refino:
+    
+    for i in range(1, max(current_curado, current_ils, current_refino)+1):
+        if refino[i] <= 0 and i> current_done:
             #verifico que termino uno: lo quito del conteo.
+            print "Termina refino de: %d" %i
             current_done = max(current_done,i)
-        if ils[i] <= 0 and i>= current_ils:
+        if ils[i] <= 0 and i> current_refino:
+            print "Termina ils de: %d" %i
             current_refino = max(current_refino,i)    
-        if curado[i] <= 0 and i>=current_curado:
+        if curado[i] <= 0 and i> current_ils:
+            print "Termina curado de: %d" %i
             current_ils = max(current_ils,i)     
-    print "Listo el curado hasta: %s" %current_ils
-    print "Listo el riego ils hasta: %s" %current_refino 
-    print "Listo el riego refino hasta: %s" %current_done 
+    #print "Listo el curado hasta: %s" %current_ils
+    #print "Listo el riego ils hasta: %s" %current_refino 
+    #print "Listo el riego refino hasta: %s" %current_done 
 
 #definimos las variables importantes
 delta = 10 #numero de dias
-velocidad = 22 #ton/dia -> 220 cada 10 dias.
+velocidad = 11 #ton/dia -> 220 cada 10 dias.
 #TODO: por ahora vamos a asumir modulos de volumen identico
 weight = 220
 t_curado = 20 #dias
@@ -101,6 +111,7 @@ t_ils = 30 #dias
 t_refino = 30 #dias
 total_carga = 0 #por si la carga es irregular
 lost_days = 0
+started = False
 #ahora agregamos las restricciones
 #SOLO MODULOS FASE IV
 
@@ -150,6 +161,7 @@ current_ils = 0
 current_refino = 0
 current_done = 0
 #cuantos estoy regando simultaneamente
+n_curado = 0
 n_riego = 0
 #cycle()
 
@@ -160,18 +172,21 @@ def main():
     global velocidad
     global delta
     global lost_days
-    while(t<400):
+    global started
+    while(t<450):
         t+=delta
+        n_riego = current_ils - current_done
+        n_curado = current_curado - current_ils
         print "******************************"
         print "******************************"
         print "Momento actual: %d" %t
-        print "Variables: c_carga = %d, c_curado = %d, c_ils = %d, c_refino =%d, c_done = %d, n_riego = %d" %(current_carga, current_curado, current_ils, current_refino, current_done, n_riego)
+        print "Variables: c_carga = %d, c_curado = %d, c_ils = %d, c_refino =%d, c_done = %d, n_riego = %d, n_curado = %d" %(current_carga, current_curado, current_ils, current_refino, current_done, n_riego, n_curado)
         print "Dias perdidos por no poder cargar: %d" %lost_days
         print "******************************"
 
         newload = velocidad*delta
         #aqui asumo que newload cabe entre el modulo actual y el sgte.
-    
+        started = False
         load(t, newload)
 
         #una vez realizada la carga, verificamos si puedo empezar riego:
